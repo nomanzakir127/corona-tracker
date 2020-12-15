@@ -50,7 +50,7 @@ export default function MainPage() {
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
-        <Grid item xs={12} md={4} lg={6} sm={4}>
+        <Grid item xs={12} md={4} lg={4} sm={6}>
           <Card className={classes.infoCardConfirmed} variant="outlined">
             <CardContent>
               <Typography className={classes.title} gutterBottom>
@@ -62,7 +62,7 @@ export default function MainPage() {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={12} md={4} lg={6} sm={4}>
+        <Grid item xs={12} md={4} lg={4} sm={6}>
           <Card className={classes.infoCardRecovered} variant="outlined">
             <CardContent>
               <Typography className={classes.title} gutterBottom>
@@ -74,7 +74,7 @@ export default function MainPage() {
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs={12} md={4} lg={6} sm={4}>
+        <Grid item xs={12} md={4} lg={4} sm={6}>
           <Card className={classes.infoCardDeaths} variant="outlined" elevation={4}>
             <CardContent>
               <Typography className={classes.title} gutterBottom>
